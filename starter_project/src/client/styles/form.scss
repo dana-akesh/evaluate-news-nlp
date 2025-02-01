@@ -1,0 +1,27 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 12px;
+    padding: 40px;
+    background: palevioletred;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+#submitButton{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background: hotpink;
+    color:#f2ede0;
+
+}
+#submitButton:hover{
+    border-radius: 10px;
+    border: none;
+    background: deeppink;
+}

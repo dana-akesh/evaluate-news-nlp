@@ -21,6 +21,10 @@ module.exports = {
         }
         ]
     },
+    output: {
+        libraryTarget: 'var',
+        library: 'Client'
+    },
     plugins: [
         new HtmlWebPackPlugin({
             template: "./src/client/views/index.html",
@@ -34,10 +38,10 @@ module.exports = {
             // Automatically remove all unused webpack assets on rebuild
             cleanStaleWebpackAssets: true,
             protectWebpackAssets: false
-        })
+        }),
     ],
-    devServer: {
+    /*devServer: {
         port: 3000,
         allowedHosts: 'all'
-    }
+    }*/
 }
